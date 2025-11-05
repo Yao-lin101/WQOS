@@ -96,7 +96,8 @@ class FirstOrderExecutor(BaseExecutor):
         """
         # 获取过滤后的操作符
         ts_ops, basic_ops, group_ops = get_filtered_operators()
-        first_order = []
+        # first_order = []
+        first_order = first_order_factory(pc_fields, ts_ops)
         self.logger.info(f"请构建一阶因子表达式")       
         
         if self.logger:

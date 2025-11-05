@@ -16,7 +16,7 @@ from pathlib import Path
 # 添加src目录到路径
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from config import RECORDS_PATH, ROOT_PATH
+from src.config import RECORDS_PATH, ROOT_PATH
 
 class FactorDataExporter:
     def __init__(self, db_path='database/factors.db'):

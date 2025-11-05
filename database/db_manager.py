@@ -18,7 +18,7 @@ import json
 # 添加src目录到路径
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from config import ROOT_PATH
+from src.config import ROOT_PATH
 
 class FactorDatabaseManager:
     """因子数据库管理器"""

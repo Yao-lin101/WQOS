@@ -5,7 +5,7 @@
 import axios, { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
 
 // API基础配置
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8088';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8088/api';
 
 // 创建axios实例
 const api: AxiosInstance = axios.create({

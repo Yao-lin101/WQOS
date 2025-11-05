@@ -6,7 +6,7 @@ RECORDS_PATH = os.path.join(ROOT_PATH, 'records')
 DATASETS_PATH = os.path.join(DATA_PATH, 'datasets')
 FIELDS_PATH = os.path.join(DATA_PATH, 'fields')
 
-REGION_LIST = ['USA', 'GLB', 'EUR', 'ASI', 'CHN', 'KOR', 'TWN', 'JPN', 'HKG', 'AMR']
+REGION_LIST = ['USA', 'GLB', 'EUR', 'ASI', 'CHN', 'KOR', 'TWN', 'JPN', 'HKG', 'AMR', 'IND']
 
 os.makedirs(DATA_PATH, exist_ok=True)
 os.makedirs(RECORDS_PATH, exist_ok=True)

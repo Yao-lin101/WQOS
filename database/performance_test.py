@@ -17,7 +17,7 @@ import shutil
 # 添加src目录到路径
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from config import RECORDS_PATH
+from src.config import RECORDS_PATH
 from database.db_manager import FactorDatabaseManager
 
 class PerformanceTester:

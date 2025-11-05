@@ -268,7 +268,7 @@ class DatabaseViewer:
         try:
             # 导入配置和时区函数
             sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-            from machine_lib_ee import load_digging_config, get_current_date_with_timezone
+            from src.machine_lib_ee import load_digging_config, get_current_date_with_timezone
             
             # 加载配置
             config = load_digging_config()

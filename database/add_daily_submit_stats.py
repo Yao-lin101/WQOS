@@ -11,7 +11,7 @@ from datetime import datetime
 
 # 添加src目录到路径
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-from config import ROOT_PATH
+from src.config import ROOT_PATH
 
 def check_table_exists(cursor, table_name):
     """检查表是否存在"""

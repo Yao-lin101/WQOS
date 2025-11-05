@@ -12,7 +12,7 @@ from datetime import datetime
 # 添加src目录到路径
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from config import ROOT_PATH
+from src.config import ROOT_PATH
 
 def migrate_daily_stats_timezone():
     """迁移daily_submit_stats表结构"""
