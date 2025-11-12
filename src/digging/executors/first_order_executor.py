@@ -98,7 +98,9 @@ class FirstOrderExecutor(BaseExecutor):
         ts_ops, basic_ops, group_ops = get_filtered_operators()
         # first_order = []
         first_order = first_order_factory(pc_fields, ts_ops)
-        self.logger.info(f"请构建一阶因子表达式")       
+        for factor in first_order:
+            print("Generated first order factors:",factor)
+        self.logger.info(f"请构建一阶因子表达式")
         
         if self.logger:
             self.logger.info(f"📊 生成一阶因子: {len(first_order):,} 个")
